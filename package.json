@@ -1,0 +1,40 @@
+{
+  "name": "pay",
+  "version": "1.0.0",
+  "description": "node.js实现的支付宝、微信支付功能。",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysdyyy/node-pay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ysdyyy/node-pay/issues"
+  },
+  "homepage": "https://github.com/ysdyyy/node-pay#readme",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "crypto": "^1.0.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.6.0",
+    "redis": "^2.8.0",
+    "underscore": "^1.9.1",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.29",
+    "@types/node": "^12.12.7",
+    "@types/node-fetch": "^2.5.3",
+    "@types/redis": "^2.8.14",
+    "@types/xml2js": "^0.4.5"
+  }
+}
